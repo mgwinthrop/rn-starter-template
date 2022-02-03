@@ -1,0 +1,8 @@
+{
+  "name": "rn-starter-template",
+  "version": "0.0.1",
+  "description": "React Native Starter Template",
+  "repository": "https://github.com/mgwinthrop/rn-starter-template.git",
+  "author": "Michael Gray",
+  "license": "MIT"
+}
