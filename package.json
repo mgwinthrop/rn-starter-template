@@ -4,5 +4,9 @@
   "description": "React Native Starter Template",
   "repository": "https://github.com/mgwinthrop/rn-starter-template.git",
   "author": "Michael Gray",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "i18next": "^21.6.10",
+    "react-i18next": "^11.15.3"
+  }
 }
