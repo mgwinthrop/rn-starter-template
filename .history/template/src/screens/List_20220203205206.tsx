@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, FlatList } from 'react-native';
 import { StackNavigationProp } from '@react-navigation/stack';
-import { useTranslation } from 'react-i18next';
+
 import colors from '../constants/colors';
 import { ListItem, ListSeparator } from '../components/List';
 import { MainStackParams } from '../navigation/Main';
