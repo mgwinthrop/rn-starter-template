@@ -5,7 +5,6 @@ import { StackNavigationProp } from '@react-navigation/stack';
 import colors from '../constants/colors';
 import { ListItem, ListSeparator } from '../components/List';
 import { MainStackParams } from '../navigation/Main';
-import '../i18n/i18n';
 
 const styles = StyleSheet.create({
   container: {
@@ -38,7 +37,6 @@ type Props = {
 };
 
 export const List = ({ navigation }: Props) => {
-  const { t } = useTranslation();
   return (
     <FlatList
       style={styles.container}
@@ -46,7 +44,7 @@ export const List = ({ navigation }: Props) => {
       keyExtractor={item => item.title}
       renderItem={({ item }) => (
         <ListItem
-          title={t('demoScope.title')}
+          title={item.title}
           subtitle={item.subtitle}
           // @ts-ignore
           // Disabling the next line because all the item.targets are valid - that data just
