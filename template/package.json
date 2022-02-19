@@ -11,7 +11,9 @@
     "format": "prettier --write '**/*.js'"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.17",
     "@react-native-masked-view/masked-view": "^0.2.6",
+    "@react-navigation/bottom-tabs": "^6.2.0",
     "@react-navigation/native": "^6.0.6",
     "@react-navigation/stack": "^6.0.11",
     "i18next": "^21.6.10",
@@ -21,7 +23,9 @@
     "react-native-device-info": "^8.4.8",
     "react-native-gesture-handler": "^1.10.3",
     "react-native-safe-area-context": "^3.3.2",
-    "react-native-screens": "^3.8.0"
+    "react-native-screens": "^3.8.0",
+    "react-native-ultimate-config": "^3.4.2",
+    "react-native-vector-icons": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

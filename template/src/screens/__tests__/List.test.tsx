@@ -10,7 +10,7 @@ it('renders tappable items', () => {
   // screen for this test to work.
   const out = render(<List navigation={{ push }} />);
 
-  fireEvent.press(out.getByText('Text'));
+  fireEvent.press(out.getByText('i18next is Great!'));
   expect(push).toBeCalledWith('TextDemo');
 
   fireEvent.press(out.getByText('Form'));
